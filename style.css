@@ -8,14 +8,28 @@
   font-size: 62.5%;
 }
 
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap ;
+}
+
 body {
   font-size: 1.6rem;
   font-family: 'Inter', sans-serif;
+  width: 100%;
 }
 
 #app {
-  display: grid;
-  max-width: 144rem;
+  /*max-width: 144rem;*/
   margin: 0 auto;
 }
 
@@ -42,13 +56,13 @@ header nav ul li a{
   font-weight: 500;
   text-decoration: none;
 }
-main {
-  padding: 0 13.5rem;
-}
+
 main #intro{
   display: flex;
   align-items: center;
   background-color: #EFF8FF;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
 }
 
 #intro h1 {
@@ -75,6 +89,8 @@ main #intro{
   justify-content: center;
   margin-top: 5.6rem;
   margin-bottom: 10.9rem;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
 }
 
 #functionalities h2 {
@@ -107,6 +123,8 @@ main #intro{
   display: flex;
   background-color: #EFF8FF;
   align-items: center;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
 }
 
 .application h2 {
@@ -164,7 +182,6 @@ main #intro{
   display: flex;
   align-items: center;
   margin-top: 9.6rem;
-  
 }
 
 .plans .cards .card {
@@ -227,4 +244,65 @@ main #intro{
   color: #FFF;
   font-size: 2rem;
   font-weight: bold;
+}
+
+.contact {
+  background-image: url(assets/contactBackground.svg);
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
+}
+
+.contact h2 {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  margin-top: 5rem;
+}
+
+.contact span {
+  color: #DBDBDB;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-bottom: 10rem;
+}
+
+.contact .input-wrapper {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 8.5rem;
+}
+
+.contact .input-wrapper input {
+  background: transparent;
+  border: none;
+  padding: 1.6rem 1rem 1rem 0;
+  width: 30rem;
+  text-align: left;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.contact .input-wrapper button {
+  background-color: #0F9AFE;
+  border-radius: 5rem;
+  padding: .8rem 3.2rem;
+  border: none;
+
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding-top: 4.1rem;
+  padding-bottom: 3.7rem;
+  color: #293145;
+  font-size: 2rem;
+  font-weight: 400;
 }
