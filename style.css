@@ -19,12 +19,12 @@
   padding: 0;
   position: absolute;
   width: 1px;
-  white-space: nowrap ;
+  white-space: nowrap;
 }
 
 body {
   font-size: 1.6rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 100%;
 }
 
@@ -33,8 +33,10 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3 {
-  font-family: 'Sora', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Sora", sans-serif;
 }
 
 header {
@@ -44,25 +46,26 @@ header {
   padding: 2rem 13.5rem;
 }
 
-header nav ul{
+header nav ul {
   display: flex;
   list-style: none;
   gap: 6.6rem;
 }
 
-header nav ul li a{
-  color: #6E7275;
+header nav ul li a {
+  color: #6e7275;
   font-size: 1.8rem;
   font-weight: 500;
   text-decoration: none;
 }
 
-main #intro{
+main #intro {
   display: flex;
   align-items: center;
-  background-color: #EFF8FF;
+  background-color: #eff8ff;
   padding-left: 13.5rem;
   padding-right: 13.5rem;
+  justify-content: space-around;
 }
 
 #intro h1 {
@@ -73,16 +76,15 @@ main #intro{
 }
 
 #intro button {
-  background: #0F9AFE;
+  background: #0f9afe;
   border-radius: 5rem;
   border: none;
   padding: 1.6rem 3.6rem;
 
-  color: #FFF;
+  color: #fff;
   font-size: 2rem;
   font-weight: 600;
 }
-
 
 #functionalities {
   display: grid;
@@ -98,6 +100,7 @@ main #intro{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  margin-top: 3rem;
   margin-bottom: 8rem;
 }
 
@@ -119,91 +122,92 @@ main #intro{
   margin-bottom: 1.6rem;
 }
 
-.application {
+#application {
   display: flex;
-  background-color: #EFF8FF;
+  background-color: #eff8ff;
   align-items: center;
   padding-left: 13.5rem;
-  padding-right: 13.5rem;
+  justify-content: space-around;
 }
 
-.application h2 {
+#application h2 {
   color: #293145;
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 2.4rem;
 }
 
-.application span {
-  color: #6E7275;
+#application span {
+  color: #6e7275;
   font-weight: 400;
   line-height: 2.6rem;
   margin-bottom: 3.2rem;
 }
 
-.application .buttons {
+#application .buttons {
   display: flex;
   gap: 2.1rem;
   margin-top: 3.2rem;
 }
 
-.application .buttons button {
+#application .buttons button {
   border: none;
   background-color: transparent;
 }
 
-.plans {
+#plans {
   margin-top: 5rem;
   margin-bottom: 13rem;
 }
 
-.plans .title{
+#plans .title {
   width: 57rem;
   text-align: center;
   margin: 0 auto;
 }
 
-.plans .title h2 {
+#plans .title h2 {
   color: #293145;
   font-size: 4rem;
   font-weight: 600;
   margin-bottom: 1.6rem;
 }
 
-.plans .title span {
-  color: #6E7275;
+#plans .title span {
+  color: #6e7275;
   text-align: center;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.5rem;
 }
 
-.plans .cards {
+#plans .cards {
   display: flex;
   align-items: center;
   margin-top: 9.6rem;
+  justify-content: space-around;
 }
 
-.plans .cards .card {
+#plans .cards .card {
   display: grid;
   flex-direction: column;
   place-items: center;
   text-align: center;
   height: 47.1rem;
   padding: 5.6rem 3.5rem 6.4rem;
-  background-color: #EFF8FF;
-  border-radius: .8rem;
+  background-color: #eff8ff;
+  border-radius: 0.8rem;
 }
 
-.plans .cards .card h3 {
+#plans .cards .card h3 {
   color: #293145;
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 3rem;
 }
 
-.plans .cards .card span {
-  color: #6E7275;
+#plans .cards .card span {
+  color: #6e7275;
   text-align: center;
   width: 30rem;
   font-size: 1.8rem;
@@ -213,40 +217,40 @@ main #intro{
   margin-top: 4.7rem;
 }
 
-.plans .cards .card button {
+#plans .cards .card button {
   border: none;
   border-radius: 5rem;
-  background: #0F9AFE;
-  padding: .8rem 8rem;
+  background: #0f9afe;
+  padding: 0.8rem 8rem;
 }
 
-.plans .cards .card:nth-child(2){
-  background-color: #293145;;
+#plans .cards .card:nth-child(2) {
+  background-color: #293145;
   text-align: center;
   height: 47.1rem;
   padding: 5.6rem 3.5rem 6.4rem;
   margin: 0 7.7rem;
 }
 
-.plans .cards .card:nth-child(2) h3 {
-  color: #FFF;
+#plans .cards .card:nth-child(2) h3 {
+  color: #fff;
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.plans .cards .card:nth-child(2) p {
+#plans .cards .card:nth-child(2) p {
   width: 23rem;
-  background: #0F9AFE;
+  background: #0f9afe;
   border-radius: 1.5rem;
-  padding: .5rem 3.2rem;
+  padding: 0.5rem 3.2rem;
 
-  color: #FFF;
+  color: #fff;
   font-size: 2rem;
   font-weight: bold;
 }
 
-.contact {
+#contact {
   background-image: url(assets/contactBackground.svg);
   background-size: cover;
   display: grid;
@@ -255,8 +259,8 @@ main #intro{
   padding-right: 13.5rem;
 }
 
-.contact h2 {
-  color: #FFF;
+#contact h2 {
+  color: #fff;
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 1.6rem;
@@ -264,7 +268,7 @@ main #intro{
 }
 
 .contact span {
-  color: #DBDBDB;
+  color: #dbdbdb;
   text-align: center;
   font-size: 1.8rem;
   font-weight: 400;
@@ -272,28 +276,28 @@ main #intro{
   margin-bottom: 10rem;
 }
 
-.contact .input-wrapper {
+#contact .input-wrapper {
   display: flex;
   gap: 4rem;
   margin-bottom: 8.5rem;
 }
 
-.contact .input-wrapper input {
+#contact .input-wrapper input {
   background: transparent;
   border: none;
   padding: 1.6rem 1rem 1rem 0;
   width: 30rem;
   text-align: left;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
 }
 
-.contact .input-wrapper button {
-  background-color: #0F9AFE;
+#contact .input-wrapper button {
+  background-color: #0f9afe;
   border-radius: 5rem;
-  padding: .8rem 3.2rem;
+  padding: 0.8rem 3.2rem;
   border: none;
 
-  color: #FFF;
+  color: #fff;
   font-size: 1.8rem;
   font-weight: 500;
 }
