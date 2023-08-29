@@ -29,7 +29,6 @@ body {
 }
 
 #app {
-  /*max-width: 144rem;*/
   margin: 0 auto;
 }
 
@@ -267,7 +266,7 @@ main #intro {
   margin-top: 5rem;
 }
 
-.contact span {
+#contact span {
   color: #dbdbdb;
   text-align: center;
   font-size: 1.8rem;
