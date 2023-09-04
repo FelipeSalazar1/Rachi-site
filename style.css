@@ -77,11 +77,15 @@ main #intro {
   color: #293145;
   font-size: 4.8rem;
   font-weight: 600;
-  
 }
 
-#intro button {
+#intro #button-wrapper {
+  margin-top: 6.6rem;
+}
+
+#intro #btn-intro {
   background: #0f9afe;
+  box-shadow: 2px 2px 0px 0px rgba(19, 125, 224, 0.50);
   border-radius: 5rem;
   border: none;
   padding: 1.6rem 3.6rem;
@@ -89,8 +93,7 @@ main #intro {
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
-
-  margin-top: 6.6rem;
+  text-decoration: none;
 }
 
 #functionalities {
